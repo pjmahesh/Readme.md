@@ -51,9 +51,22 @@ Here the various identifiers in a line are:
 
 #### NB: A link to datasheet is provided after every device description.
 
-### Please refer back the above [Getting started](https://github.com/pjmahesh/Readme.md/blob/master/README.md#getting-started) for any clarifictions required in reading the following program:
+### Please refer back the above [Getting started](https://github.com/pjmahesh/Readme.md/blob/master/README.md#getting-started) for any clarifictions required in reading the program:
 
 ```c
+/*
+ * File Name : pltfrm.h
+ * Author : ram krishnan
+ * Created : 10/21/2013
+ * Documentation for Pltfrm.h
+*/
+#ifndef __PLTFRM_H__
+#define __PLTFRM_H__
+// --------------------- Devices -------------------------- 
+// This contain all the device IDs and parameters pertaining to the devices in Wisense WSN Platform.
+// Each device will need a unique ID, and this ID has to be matching with the code on hardware as well
+// Eg., 0x8 represnets a device ID value of 8 
+/*
 /*
  * Device ID hex value : Decimal Value : Macroname :  Description
  * 0x0 - 0 - Dummy
