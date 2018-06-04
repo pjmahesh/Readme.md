@@ -6,7 +6,7 @@ For example '0x08' represents a device ID of 8.
 
 ## Getting Started
 
-The following descriptions will explain about Device IDs, ID allocation and their specifications
+The following descriptions will explain about Device IDs, ID allocation and specifications
 
 ## (1) Device IDs:
 Each device(RFD*) will have an ID allocated in the software. This ID is traced to establish a connection with that particular RFD. 
