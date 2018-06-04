@@ -20,7 +20,7 @@ For example:
 
 ## (2) ID allocation:
 Device IDs are allocated in hex formats, starting from 0x00 to 0xff. This practice is followed in order to reduce the complexity with more numbers in the
-program as there is large no: of devices in the network. 
+program due to a large number of devices in the network.
 ```c
 For example:
 0xa - 10 - PLTFRM_TMP102_1_DEV_ID - TMP102 - TI  // Device ID 0xa or 10
