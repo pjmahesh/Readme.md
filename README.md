@@ -27,7 +27,8 @@ For example:
 ```
 >###### [TI TMP102(Device ID 0xa)Datasheet](http://www.ti.com/lit/ds/symlink/tmp102.pdf)
 ```c             
-0x59 - 89 - PLTFRM_INA219_1_SV_DEV_ID - TI I2C Out Current/Power Monitor INA219 // Device ID 0x59 or 89                        
+0x59 - 89 - PLTFRM_INA219_1_SV_DEV_ID - TI I2C Out Current/Power Monitor INA219 
+            // Device ID 0x59 or 89                        
 ```
 >###### [TI INA219(Device ID 0x59)Datasheet](http://www.ti.com/lit/gpn/ina219)
 
