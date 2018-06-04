@@ -38,7 +38,7 @@ In the following documentation, ***device name, description*** and ***manufactur
 For example:
 0xa - 10 - PLTFRM_TMP102_1_DEV_ID - TMP102 on the chip Temperature from TI  // Device ID 0xa or 10
 ```
-Here the various identifiers in a line are:
+Here the various blocks in a line are:
 
 >(1)0xa                    :The device ID in hex format.
 
