@@ -40,11 +40,11 @@ For example:
 ```
 Here the various blocks in a line are:
 
->(1)0xa                    :The device ID in hex format.
+>(1)0xa                    : The device ID in hex format.
 
->(2)10                     :The device ID in decimal.
+>(2)10                     : The device ID in decimal.
 
->(3)PLTFRM_TMP102_1_DEV_ID :Device macro definition in the program.
+>(3)PLTFRM_TMP102_1_DEV_ID : Device macro definition in the program.
 
 >(4)TMP102 on the chip Temperature sensor from TI : Device/component name, description and manufacturer.
 
