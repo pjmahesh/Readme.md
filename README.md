@@ -48,3 +48,6 @@ Here the various identifiers in a line are:
 
 >(4)TMP102 on the chip Temperature sensor from TI : Device/component name, description and manufacturer.
 
+
+## NB: A link to datasheet is provided after every device description
+## Please refer to the above
