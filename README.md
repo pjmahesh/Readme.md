@@ -111,9 +111,9 @@ Here the various identifiers in a line are:
  * 0x26 - 38 - PLTFRM_MAX_SONAR_1_DEV_ID - ** MAXBotix Sonar : Product number needed**
  * 0x27 - 39 - PLTFRM_MAX_SONAR_2_DEV_ID - ""
  * 0x28 - 40 - PLTFRM_MAX_SONAR_3_DEV_ID - ""
- * 0x29 - 41 - 
- * 0x2a - 42
- * 0x2b - 43
+ * 0x29 - 41 - Dummy
+ * 0x2a - 42 - Dummy
+ * 0x2b - 43 - Dummy
  * 0x2c - 44 - PLTFRM_AS339_1_DIVER_PRESSURE_DEV_ID - ** Specific info required**
  * 0x2d - 45 - PLTFRM_AS339_1_DIVER_TEMPERATURE_DEV_ID - ** "" **
  * 0x2e - 46 - PLTFRM_AS339_1_DIVER_MOD_PRESSURE_DEV_ID - ** "" **
@@ -121,60 +121,60 @@ Here the various identifiers in a line are:
  * 0x30 - 48 - PLTFRM_EKMC160111X_1_DEV_ID - Panasonic Passive Infrared Motion Sensor EKMC160111X
                http://wisense.in/datasheets/papirs-ekmc-catalog.pdf
 
- * 0x31 - 49 - 
- * 0x32 - 50
- * 0x33 - 51
+ * 0x31 - 49 - Dummy 
+ * 0x32 - 50 - Dummy
+ * 0x33 - 51 - Dummy
  * 0x34 - 52 - PLTFRM_PULSE_CNTR_1_DEV_ID - ** Info reqd**
  * 0x35 - 53 - PLTFRM_PULSE_CNTR_2_DEV_ID - ** "" **
- * 0x36 - 54 - 
- * 0x37 - 55
+ * 0x36 - 54 - Dummy 
+ * 0x37 - 55 - Dummy
  * 0x38 - 56 - PLTFRM_GEN_VOLT_MON_DEV_ID - ** Info reqd **
  * 0x39 - 57 - PLTFRM_GEN_CURRENT_MON_DEV_ID - ** "" **
  * 0x3a - 58 - PLTFRM_EXT_VOLTAGE_MON_DEV_ID - ** "" **
- * 0x3b - 59 - 
- * 0x3c - 60
- * 0x3d - 61
- * 0x3e - 62
- * 0x3f - 63
+ * 0x3b - 59 - Dummy 
+ * 0x3c - 60 - Dummy
+ * 0x3d - 61 - Dummy
+ * 0x3e - 62 - Dummy
+ * 0x3f - 63 - Dummy
  * 0x40 - 64 - PLTFRM_LED_1_DEV_ID - LED GPIO**
  * 0x41 - 65 - PLTFRM_LED_2_DEV_ID - LED GPIO **
- * 0x42 - 66 - 
- * 0x43 - 67
- * 0x44 - 68
- * 0x45 - 69
- * 0x46 - 70
- * 0x47 - 71
+ * 0x42 - 66 - Dummy 
+ * 0x43 - 67 - Dummy
+ * 0x44 - 68 - Dummy
+ * 0x45 - 69 - Dummy
+ * 0x46 - 70 - Dummy
+ * 0x47 - 71 - Dummy
  * 0x48 - 72 - PLTFRM_BAR_CODE_SCANNER_1_DEV_ID - BARCODE SCANNER UART **
- * 0x49 - 73 - 
+ * 0x49 - 73 - Dummy
  * 0x4a - 74 - PLTFRM_AUTO_ASSY_TMON_1_DEV_ID - ** Info reqd **
- * 0x4b - 75 - 
- * 0x4c - 76
- * 0x4d - 77
- * 0x4e - 78
- * 0x4f - 79
+ * 0x4b - 75 - Dummy
+ * 0x4c - 76 - Dummy
+ * 0x4d - 77 - Dummy
+ * 0x4e - 78 - Dummy
+ * 0x4f - 79 - Dummy
  * 0x50 - 80 - PLTFRM_REED_SWITCH_1_DEV_ID - REED SWITCH **
  * 0x51 - 81 - PLTFRM_SPST_SWITCH_1_DEV_ID - SPST SWITCH **
  * 0x52 - 82 - PLTFRM_DUAL_FS_LVL_MON_1_DEV_ID - ** iNFO reqd**
- * 0x53 - 83 - 
+ * 0x53 - 83 - Dummy 
  * 0x54 - 84 - PLTFRM_ACS712_1_CURRENT_DEV_ID - Sparkfun Linear Current Sensor ACS712 **
                https://www.sparkfun.com/datasheets/BreakoutBoards/0712.pdf
  * 0x55 - 85 - PLTFRM_ACS712_2_CURRENT_DEV_ID - Sparkfun Linear Current Sensor ACS712 **
                https://www.sparkfun.com/datasheets/BreakoutBoards/0712.pdf 
  * 0x56 - 86 - PLTFRM_ACS712_3_CURRENT_DEV_ID - Sparkfun Linear Current Sensor ACS712 **
                https://www.sparkfun.com/datasheets/BreakoutBoards/0712.pdf
- * 0x57 - 87 - 
+ * 0x57 - 87 - Dummy 
  * 0x58 - 88 - PLTFRM_INA219_1_BV_DEV_ID - TI I2C Out Current/Power Monitor INA219
                http://www.ti.com/lit/gpn/ina219
  * 0x59 - 89 - PLTFRM_INA219_1_SV_DEV_ID - TI I2C Out Current/Power Monitor INA219
                http://www.ti.com/lit/gpn/ina219
- * 0x5a - 90 - 
- * 0x5b - 91
+ * 0x5a - 90 - Dummy
+ * 0x5b - 91 - Dummy
  * 0x5c - 92 - PLTFRM_INA219_3_BV_DEV_ID - TI I2C Out Current/Power Monitor INA219
                http://www.ti.com/lit/gpn/ina219
  * 0x5d - 93 - PLTFRM_INA219_3_SV_DEV_ID - TI I2C Out Current/Power Monitor INA219
                http://www.ti.com/lit/gpn/ina219
- * 0x5e - 94
- * 0x5f - 95
+ * 0x5e - 94 - Dummy
+ * 0x5f - 95 - Dummy
  * 0x60 - 96 - PLTFRM_MP3V5050GP_1_DEV_ID - NXP pressure sensor MP3V5050GP(analog) 
                https://www.nxp.com/docs/en/data-sheet/MP3V5050.pdf
  * 0x61 - 97 - PLTFRM_HE055T01_1_DEV_ID - Electrohms Closed Loop Hall Effect Current Sensor(analog)
@@ -186,157 +186,157 @@ Here the various identifiers in a line are:
  * 0x64 - 100 - PLTFRM_MP3V5010_1_DEV_ID - NXP On Chip Pressure Sensor MP3V5010(analog)
                 https://www.nxp.com/docs/en/data-sheet/MP3V5010.pdf
  * 0x65 - 101 - PLTFRM_LLS_1_DEV_ID - ** Info reqd**
- * 0x66 - 102 - 
- * 0x67 - 103
+ * 0x66 - 102 - Dummy
+ * 0x67 - 103 - Dummy
  * 0x68 - 104 - PLTFRM_BATT_1_DEV_ID - ** Info reqd**
  * 0x69 - 105 - PLTFRM_4_20_CURRENT_SENSOR_ID - ** Info reqd**
  * 0x6a - 106 - PLTFRM_SETRA_3100_1_DEV_ID - Setra Industrial OEM Pressure Transducer SETRA3100
                 https://www.setra.com/hubfs/Product_Data_Sheets/Model_3100_Data_Sheet.pdf?t=1525445834215
- * 0x6b - 107 - 
- * 0x6c - 108
- * 0x6d - 109
- * 0x6e - 110
- * 0x6f - 111
+ * 0x6b - 107 - Dummy
+ * 0x6c - 108 - Dummy
+ * 0x6d - 109 - Dummy
+ * 0x6e - 110 - Dummy
+ * 0x6f - 111 - Dummy
  * 0x70 - 112 - PLTFRM_AD7797_1_DEV_ID - Analog A/D Converter for Bridge Sensors AD7797
                 http://www.analog.com/media/en/technical-documentation/data-sheets/AD7796_7797.pdf
- * 0x71 - 113
- * 0x72 - 114
- * 0x73 - 115
- * 0x74 - 116
- * 0x75 - 117
- * 0x76 - 118
- * 0x77 - 119
+ * 0x71 - 113 - Dummy
+ * 0x72 - 114 - Dummy
+ * 0x73 - 115 - Dummy
+ * 0x74 - 116 - Dummy
+ * 0x75 - 117 - Dummy
+ * 0x76 - 118 - Dummy
+ * 0x77 - 119 - Dummy
  * 0x78 - 120 - PLTFRM_ON_CHIP_VCC_SENSOR_DEV_ID - TI MSP230 on Chip Voltage Sensor
                 http://wisense.in/datasheets/msp430g2955.pdf
                 
  * 0x79 - 121 - PLTFRM_ON_CHIP_TEMP_SENSOR_DEV_ID - TI MSP230 on Chip Temperature Sensor
                 http://wisense.in/datasheets/msp430g2955.pdf
- * 0x7a - 122 - 
- * 0x7b - 123
- * 0x7c - 124
- * 0x7d - 125
- * 0x7e - 126
- * 0x7f - 127
+ * 0x7a - 122 - Dummy 
+ * 0x7b - 123 - Dummy
+ * 0x7c - 124 - Dummy
+ * 0x7d - 125 - Dummy
+ * 0x7e - 126 - Dummy
+ * 0x7f - 127 - Dummy
  * 0x80 - 128 - PLTFRM_SYNC_RT_1_DEV_ID - **Info reqd**
- * 0x81 - 129 - 
- * 0x82 - 130
- * 0x83 - 131
- * 0x84 - 132
- * 0x85 - 133
- * 0x86 - 134
- * 0x87 - 135
+ * 0x81 - 129 - Dummy 
+ * 0x82 - 130 - Dummy
+ * 0x83 - 131 - Dummy
+ * 0x84 - 132 - Dummy
+ * 0x85 - 133 - Dummy
+ * 0x86 - 134 - Dummy
+ * 0x87 - 135 - Dummy
  * 0x88 - 136 - PLTFRM_MAG3110_1_DEV_ID - NXP High Accuracy 3D Magnetometer MAG3110
                 https://www.nxp.com/docs/en/data-sheet/MAG3110.pdf
- * 0x89 - 137 - 
- * 0x8a - 138
- * 0x8b - 139
- * 0x8c - 140
- * 0x8d - 141
- * 0x8e - 142
- * 0x8f - 143
+ * 0x89 - 137 - Dummy
+ * 0x8a - 138 - Dummy
+ * 0x8b - 139 - Dummy
+ * 0x8c - 140 - Dummy
+ * 0x8d - 141 - Dummy
+ * 0x8e - 142 - Dummy
+ * 0x8f - 143 - Dummy
  * 0x90 - 144 - PLTFRM_LOGIC_1_DEV_ID - **Info reqd**
  * 0x91 - 145 - PLTFRM_CHIRP_PWLA_1_DEV_ID - **Info reqd**
  * 0x92 - 146 - PLTFRM_FC_28_1_DEV_ID - FC-28 Soil Moisture Sensor **
                 http://artofcircuits.com/product/fc-28-soil-moisture-sensor-analog-and-digital-outputs
  * 0x93 - 147 - PLTFRM_WSMS100_1_DEV_ID - **Info reqd**
- * 0x94 - 148 - 
- * 0x95 - 149
- * 0x96 - 150
- * 0x97 - 151
- * 0x98 - 152
- * 0x99 - 153
- * 0x9a - 154
- * 0x9b - 155
- * 0x9c - 156
- * 0x9d - 157
- * 0x9e - 158
- * 0x9f - 159
+ * 0x94 - 148 - Dummy
+ * 0x95 - 149 - Dummy
+ * 0x96 - 150 - Dummy
+ * 0x97 - 151 - Dummy
+ * 0x98 - 152 - Dummy
+ * 0x99 - 153 - Dummy
+ * 0x9a - 154 - Dummy
+ * 0x9b - 155 - Dummy
+ * 0x9c - 156 - Dummy
+ * 0x9d - 157 - Dummy
+ * 0x9e - 158 - Dummy
+ * 0x9f - 159 - Dummy
  * 0xa0 - 160 - PLTFRM_UART_HW_1_DEV_ID - **Info reqd**
- * 0xa1 - 161 - 
- * 0xa2 - 162
- * 0xa3 - 163
- * 0xa4 - 164
- * 0xa5 - 165
- * 0xa6 - 166
- * 0xa7 - 167
- * 0xa8 - 168
- * 0xa9 - 169
- * 0xaa - 170
- * 0xab - 171
- * 0xac - 172
- * 0xad - 173
- * 0xae - 174
- * 0xaf - 175
+ * 0xa1 - 161 - Dummy
+ * 0xa2 - 162 - Dummy
+ * 0xa3 - 163 - Dummy
+ * 0xa4 - 164 - Dummy
+ * 0xa5 - 165 - Dummy
+ * 0xa6 - 166 - Dummy
+ * 0xa7 - 167 - Dummy
+ * 0xa8 - 168 - Dummy
+ * 0xa9 - 169 - Dummy
+ * 0xaa - 170 - Dummy
+ * 0xab - 171 - Dummy
+ * 0xac - 172 - Dummy
+ * 0xad - 173 - Dummy
+ * 0xae - 174 - Dummy
+ * 0xaf - 175 - Dummy
  * 0xb0 - 176 - PLTFRM_CC2D33S_1_RH_DEV_ID - Humidity Temperature Sensor CC2D33S **
                 https://www.mouser.com/datasheet/2/18/AAS-920-558E-Telaire_ChipCap2-021718-web-1315821.pdf
  * 0xb1 - 177 - PLTFRM_CC2D33S_1_TEMP_DEV_ID - Humidity Temperature Sensor CC2D33S **
                 https://www.mouser.com/datasheet/2/18/AAS-920-558E-Telaire_ChipCap2-021718-web-1315821.pdf
- * 0xb2 - 178
- * 0xb3 - 179
- * 0xb4 - 180
- * 0xb5 - 181
- * 0xb6 - 182
- * 0xb7 - 183
+ * 0xb2 - 178 - Dummy
+ * 0xb3 - 179 - Dummy
+ * 0xb4 - 180 - Dummy
+ * 0xb5 - 181 - Dummy
+ * 0xb6 - 182 - Dummy
+ * 0xb7 - 183 - Dummy
  * 0xb8 - 184 - PLTFRM_MPL3115A2_1_DEV_ID - NXP I2C Piezoresistive Absolute Pressure Sensor MPL3115A2
                 https://www.nxp.com/docs/en/data-sheet/MPL3115A2.pdf
  * 0xb9 - 185 - PLTFRM_MPL115A2_1_DEV_ID - NXP Miniature Absolute Pressure Sensor MPL115A2
                 https://www.nxp.com/docs/en/data-sheet/MPL115A2.pdf
  * 0xba - 186 - PLTFRM_BMP180_1_DEV_ID - Bosch Barometric Pressure Sensor BMP180
                 https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP180-DS000-12.pdf      
- * 0xbb - 187
- * 0xbc - 188
- * 0xbd - 189
+ * 0xbb - 187 - Dummy
+ * 0xbc - 188 - Dummy
+ * 0xbd - 189 - Dummy
  * 0xbe - 190 - PLTFRM_HPM_1_PM2PT5_DEV_ID - **info reqd** 
  * 0xbf - 191 - PLTFRM_HPM_1_PM10_DEV_ID - **info reqd**
  * 0xc0 - 192 - PLTFRM_MMA7660FC_1_DEV_ID - NXP I2C 3-Axis Accelerometer MMA7660FC
                 https://www.nxp.com/docs/en/data-sheet/MMA7660FC.pdf
- * 0xc1 - 193 - 
- * 0xc2 - 194
- * 0xc3 - 195
- * 0xc4 - 196
- * 0xc5 - 197
- * 0xc6 - 198
- * 0xc7 - 199
- * 0xc8 - 200
- * 0xc9 - 201
+ * 0xc1 - 193 - Dummy 
+ * 0xc2 - 194 - Dummy
+ * 0xc3 - 195 - Dummy
+ * 0xc4 - 196 - Dummy
+ * 0xc5 - 197 - Dummy
+ * 0xc6 - 198 - Dummy
+ * 0xc7 - 199 - Dummy
+ * 0xc8 - 200 - Dummy
+ * 0xc9 - 201 - Dummy
  * 0xca - 202 - PLTFRM_MDS_1_DEV_ID **info reqd**
- * 0xcb - 203 - 
+ * 0xcb - 203 - Dummy 
  * 0xcc - 204 - PLTFRM_VIBRATION_SNSR_1_DEV_ID **info reqd**
- * 0xcd - 205 - 
- * 0xce - 206
- * 0xcf - 207
- * 0xd0 - 208
- * 0xd1 - 209
- * 0xd2 - 210
- * 0xd3 - 211
- * 0xd4 - 212
- * 0xd5 - 213
- * 0xd6 - 214
- * 0xd7 - 215
- * 0xd8 - 216
- * 0xd9 - 217
- * 0xda - 218
- * 0xdb - 219
- * 0xdc - 220
- * 0xdd - 221
- * 0xde - 222
- * 0xdf - 223
+ * 0xcd - 205 - Dummy 
+ * 0xce - 206 - Dummy
+ * 0xcf - 207 - Dummy
+ * 0xd0 - 208 - Dummy
+ * 0xd1 - 209 - Dummy
+ * 0xd2 - 210 - Dummy
+ * 0xd3 - 211 - Dummy
+ * 0xd4 - 212 - Dummy
+ * 0xd5 - 213 - Dummy
+ * 0xd6 - 214 - Dummy
+ * 0xd7 - 215 - Dummy
+ * 0xd8 - 216 - Dummy
+ * 0xd9 - 217 - Dummy
+ * 0xda - 218 - Dummy
+ * 0xdb - 219 - Dummy
+ * 0xdc - 220 - Dummy
+ * 0xdd - 221 - Dummy
+ * 0xde - 222 - Dummy
+ * 0xdf - 223 - Dummy
  * 0xe0 - 224 - PLTFRM_I2C_SW_BUS_1_DEV_ID ** info req**
  * 0xe1 - 225 - PLTFRM_I2C_SW_BUS_2_DEV_ID **info reqd**
- * 0xe2 - 226 - 
- * 0xe3 - 227
- * 0xe4 - 228
- * 0xe5 - 229
- * 0xe6 - 230
- * 0xe7 - 231
+ * 0xe2 - 226 - Dummy
+ * 0xe3 - 227 - Dummy
+ * 0xe4 - 228 - Dummy
+ * 0xe5 - 229 - Dummy
+ * 0xe6 - 230 - Dummy
+ * 0xe7 - 231 - Dummy
  * 0xe8 - 232 - PLFRM_SPI_HW_BUS_1_DEV_ID **info reqd**
- * 0xe9 - 233
+ * 0xe9 - 233 - Dummy
  * 0xea - 234 - PLTFRM_WS_VEH_DET_1_DEV_ID ** info req**
- * 0xeb - 235 - 
- * 0xec - 236
- * 0xed - 237
- * 0xee - 238
- * 0xef - 239
+ * 0xeb - 235 - Dummy 
+ * 0xec - 236 - Dummy
+ * 0xed - 237 - Dummy
+ * 0xee - 238 - Dummy
+ * 0xef - 239 - Dummy
  * 0xf0 - 240 - PLTFRM_DEV_TYPE_SOLAR_PWR_SRC_VSENSE ** info req**
  * 0xf1 - 241 - PLTFRM_DEV_TYPE_SOLAR_PWR_SRC_ISENSE ** info req**
  * 0xf2 - 242 - PLTFRM_SOL_PSU_1_DEV_ID ** info req**
@@ -344,13 +344,13 @@ Here the various identifiers in a line are:
  * 0xf4 - 244 - PLTFRM_SOL_PSU_1_VSYS_DEV_ID ** info req**
  * 0xf5 - 245 - PLTFRM_SOL_PSU_1_ISOL_DEV_ID ** info req**
  * 0xf6 - 246 - PLTFRM_SOL_PSU_1_IBATT_DEV_ID ** info req** 
- * 0xf7 - 247
- * 0xf8 - 248
- * 0xf9 - 249
- * 0xfa - 250 
+ * 0xf7 - 247 - Dummy
+ * 0xf8 - 248 - Dummy
+ * 0xf9 - 249 - Dummy
+ * 0xfa - 250 - Dummy
  * 0xfb - 251 - PLTFRM_WPDS_DEV_ID ** info req** 
- * 0xfc - 252
- * 0xfd - 253
+ * 0xfc - 252 - Dummy
+ * 0xfd - 253 - Dummy
  * 0xfe - 254 - PLTFRM_32KHZ_CRYSTAL_DEV_ID ** info req**
  * 0xff - 255 - PLTFRM_GENERIC_DEV_ID ** info req**
 */ 
