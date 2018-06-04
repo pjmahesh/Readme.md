@@ -33,7 +33,7 @@ For example:
 
 ## (2) Device/component name and make:
 In the following documentation, ***device name, description*** and ***manufacturer*** will be specified in the ***forth block*** in a line, in the order following the
-*device ID in HEX*, *device ID in decimal*, and the *device macro definition*, respectively. 
+*device ID in HEX*, *device ID in decimal*, and the *device macro name*, respectively. 
 ```c
 For example:
 0xa - 10 - PLTFRM_TMP102_1_DEV_ID - TMP102 on the chip Temperature from TI  // Device ID 0xa or 10
@@ -44,7 +44,7 @@ Here the various blocks in a line are:
 
 >(2)10                     : The device ID in decimal.
 
->(3)PLTFRM_TMP102_1_DEV_ID : Device macro definition in the program.
+>(3)PLTFRM_TMP102_1_DEV_ID : Device macro name in the program.
 
 >(4)TMP102 on the chip Temperature sensor from TI : Device/component name, description and manufacturer.
 
