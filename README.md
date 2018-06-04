@@ -51,7 +51,7 @@ Here the various blocks in a line are:
 
 #### NB: A link to datasheet is provided after every device description.
 
-### Please refer back the above [Getting started](https://github.com/pjmahesh/Readme.md/blob/master/README.md#getting-started) for any clarifictions required in reading the program:
+### Please refer back the above [Getting Started](https://github.com/pjmahesh/Readme.md/blob/master/README.md#getting-started) for any clarifications required in reading the program:
 
 ```c
 /*
