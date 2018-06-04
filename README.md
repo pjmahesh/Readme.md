@@ -9,8 +9,8 @@ For example '0x08' represents a device ID of 8.
 The following descriptions will explain about Device IDs, ID allocation and their specifications
 
 ## (1) Device IDs:
-Each device(RFD) will have an ID allocated in the software. This ID is traced to establish a connection with that particular RFD. 
-Here, the allocation starts from 0x01 to 0xff, with few IDs unused in random and will be defined as Dummy.
+Each device(RFD*) will have an ID allocated in the software. This ID is traced to establish a connection with that particular RFD. 
+Here, the allocation starts from 0x01 to 0xff, with few IDs unused in random and will be defined as Dummy. (*RFD- Reduced Function Device)
 ```c
 For example:
 0x0 - 0 - Dummy
